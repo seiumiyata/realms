@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riddle Realms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Riddle Realms</h1>
+        <div class="hint-container">
+            <p>ヒント 1: <span id="hint1"></span></p>
+            <p>ヒント 2: <span id="hint2"></span></p>
+            <p>ヒント 3: <span id="hint3"></span></p>
+        </div>
+        <div class="input-container">
+            <input type="text" id="guess-input" placeholder="答えを入力してください">
+            <button id="submit-btn">送信</button>
+        </div>
+        <p id="result"></p>
+        <h2>ランキング</h2>
+        <ul id="ranking-list"></ul>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
